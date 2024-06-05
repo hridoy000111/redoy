@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade system</title>
+</head>
+<body>
+    <script>
+        var num=Number(prompt('Enter a number: '));
+        var Grade;
+        if(num >= 80 && num <= 100){ 
+            Grade='A+';
+           
+        }
+        else if (num >= 75){
+                    Grade='A';
+        }
+        else if (num >= 70){
+                    Grade='A-';
+        }
+        else if (num >= 65){
+                    Grade='B+';
+        }
+        else if (num >= 60){
+                    Grade='B';
+        }
+        else if (num >= 55){
+                    Grade='B-';
+        }
+        else if (num >= 50){
+                    Grade='C+';
+        }
+        else if (num >= 45){
+                    Grade='C';
+        }
+        else if (num >= 40){
+                    Grade='D';
+        }
+        else{
+            Grade='F';
+        }
+        document.write('Your grade is:'+Grade);
+
+
+
+    </script>
+</body>
+</html>
